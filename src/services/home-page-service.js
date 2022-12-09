@@ -5,6 +5,7 @@ const API_BASE = "http://localhost:4000/api";
 export const getAllProperties = async (userID) => {
     const response = await axiosRequest.get(`${API_BASE}/products?user=${userID}`);
     const properties = response.data;
+    console.log("from server products "+properties)
     return properties;
 }
 

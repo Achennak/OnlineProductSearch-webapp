@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { createTuitThunk, deleteTuitThunk, findPropertiesThunk, updateTuitThunk } from "../../services/home-page-thunks";
-import {findPropertiesThunkById} from "../../services/property-screen-thunk";
+import { createTuitThunk, deleteTuitThunk, findPropertiesThunk, updateTuitThunk } from "../services/home-page-thunks";
+import {findPropertiesThunkById} from "../services/property-screen-thunk";
 
 
 
